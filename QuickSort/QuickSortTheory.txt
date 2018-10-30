@@ -1,0 +1,13 @@
+/**********************************************************************************************************************************
+Quick Sort
+Written by:- Aadish Joshi
+***********************************************************************************************************************************/
+
+Worst -case running time complexity is Theta(n^2)
+Expected running time is Theta(n log n)
+
+Divide and conquer
+
+Partitioning the array:
+
+pivot as x = A[r].

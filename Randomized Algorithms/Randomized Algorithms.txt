@@ -1,0 +1,21 @@
+/**********************************************************************************************************************************
+Randomized Algorithms
+Written by:- Aadish Joshi
+***********************************************************************************************************************************/
+
+RANDOMIZED-HIRING-ASSISTANT(n)
+randomly permute the list of candidates
+best = 0
+for i = 1 to n
+	interview candidate i
+	if candidate i is better than candidate best
+		best = i
+		hire i
+
+
+//permute by sorting
+
+Randomize-in-place(A)
+n = A.length
+for i = 1 to n:
+	swap A[i] with A[random(i,n)]

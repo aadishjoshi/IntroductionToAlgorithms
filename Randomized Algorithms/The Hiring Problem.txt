@@ -1,0 +1,17 @@
+/**********************************************************************************************************************************
+The hiring Problem
+Written by:- Aadish Joshi
+***********************************************************************************************************************************/
+
+HIRE-ASSISTANT(n):
+	best = 0
+	for i = 1 to n:
+		interview candidate i
+		if candidate i is better than candidate best
+			best = i
+			hire candidate i
+
+Probablistic analysis is a use of probabilities in the analysis of the problem.
+We give runtime as Average running time of the problem.
+
+Decide on Reasonable input distribution.
